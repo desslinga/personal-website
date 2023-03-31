@@ -16,10 +16,6 @@ export default function Home() {
             been working on recently :). Feel free to say hi!" 
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-        <style>
-          @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
-        </style>
       </Head>
       <App/>
     </>
