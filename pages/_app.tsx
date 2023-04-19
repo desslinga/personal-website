@@ -1,14 +1,9 @@
 import '@/styles/globals.scss'
 import Head from 'next/head'
-import { Poppins, Nanum_Myeongjo } from 'next/font/google'
+import { Nanum_Myeongjo } from 'next/font/google'
 import { AppProps } from 'next/app'
 import { useMediaQuery } from 'react-responsive';
 import dynamic from 'next/dynamic'
-
-const poppins = Poppins({
-  weight: '500',
-  subsets: ['latin']
-})
 
 const nanum = Nanum_Myeongjo({
   weight: '400',
@@ -39,7 +34,7 @@ export default function App({ Component, pageProps }: AppProps) {
           <meta name="theme-color" content="#ffffff"></meta>
       </Head>
       <div className={nanum.className}>
-        <NavComponent isBreakpoint={isBreakpoint} ></NavComponent>
+        <NavComponent></NavComponent>
         <Component {...pageProps}></Component>
       </div>
     </>
