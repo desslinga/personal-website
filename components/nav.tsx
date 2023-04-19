@@ -1,8 +1,7 @@
-import Link from "next/link";
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react'
 import { useRouter } from 'next/router'
-import { useMediaQuery } from 'react-responsive';
-import NavBurgerComponent from "./nav-burger";
+import { useMediaQuery } from 'react-responsive'
+import NavBurgerComponent from "./nav-burger"
 
 export default function NavComponent() {
 

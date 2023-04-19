@@ -211,6 +211,10 @@ header {
       width: 50%;
       letter-spacing: 2px;
 
+      &.width100 {
+        width: 100%;
+      }
+
       @media (max-width: $breakpoint-mobile) {
         width: 100%;
       }

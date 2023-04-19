@@ -1,5 +1,12 @@
 
-import { Nanum_Myeongjo } from 'next/font/google'
+import Image from 'next/image'
+import { Gloock, Nanum_Myeongjo } from 'next/font/google'
+import Link from "next/link"
+
+const gloock = Gloock({
+  weight: '400',
+  subsets: ['latin']
+})
 
 const nanum = Nanum_Myeongjo({
   weight: '400',
@@ -13,11 +20,11 @@ export default function AboutPageComponent() {
         <div className={`description ${nanum.className} width100`}>
           <div className={'textContainer'}>
             <span className={'header'}>
-              page under construction...
+              we don't have that page!
             </span>
             <br/><br/>
             <span className={'body'}>
-              check back soon! :)
+              go back <Link href='/home'>home</Link>.
             </span>
           </div>
         </div>

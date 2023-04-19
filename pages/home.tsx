@@ -1,11 +1,5 @@
 
-import Image from 'next/image'
-import { Gloock, Nanum_Myeongjo } from 'next/font/google'
-
-const gloock = Gloock({
-  weight: '400',
-  subsets: ['latin']
-})
+import { Nanum_Myeongjo } from 'next/font/google'
 
 const nanum = Nanum_Myeongjo({
   weight: '400',
