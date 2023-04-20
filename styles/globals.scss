@@ -190,9 +190,9 @@ header {
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
-      width: 50%;
-      height: 56vh;
-      max-height: 380px;
+      width: 60%;
+      height: 60vh;
+      max-height: 450px;
 
       @media (max-width: $breakpoint-mobile) {
         width: 100%;
@@ -208,7 +208,7 @@ header {
     }
 
     .description {
-      width: 50%;
+      width: 40%;
       letter-spacing: 2px;
 
       &.width100 {
