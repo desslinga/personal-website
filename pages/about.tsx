@@ -1,4 +1,3 @@
-
 import { Nanum_Myeongjo } from 'next/font/google'
 
 const nanum = Nanum_Myeongjo({
@@ -25,4 +24,3 @@ export default function AboutPageComponent() {
     </div>
   )
 }
-

@@ -12,7 +12,7 @@ export default function HomePageComponent() {
       <div className={'pageContainer'}>
         <div className={'portrait'}></div>
         <div className={'breakColumn'}></div>
-        <div className={`description ${nanum.className}`}>
+        <div className={`lessHalfComponent ${nanum.className}`}>
           <div className={'textContainer'}>
             <span className={'header'}>
               Hello my name is Fides!
