@@ -11,6 +11,15 @@ export default function AboutPageComponent() {
     <>
       <div className={'pageComponentContainer'}>
         <div className={'pageContainer'}>
+          <div className={`fullWidthComponent`}>
+            <div className={'textContainer'}>
+              <span className={'body'}>
+                Hello! I’m Fides and this is my home on the internet. 
+                Thanks for dropping by! I’ve put together a little narrative 
+                about myself, if you’d like to read on below!
+              </span>
+            </div>
+          </div>
           <div className={`firstAboutText moreHalfComponent ${nanum.className}`}>
             <div className={'textContainer'}>
               <span className={'header'}>
@@ -18,16 +27,14 @@ export default function AboutPageComponent() {
               </span>
               <br/><br/>
               <span className={'body'}>
-                Hey there! So, let me tell you a little bit about myself. 
-                I'm a Filipino immigrant, just like my family, and we made 
-                the move to Canada over a decade ago. We settled in the 
-                beautiful neighbourhood of Forest Hill, in Toronto. 
+                A little background — I’m from the Philippines, and I came with 
+                my family to Toronto, Canada when I was 9. Since then I’ve stayed 
+                in Toronto my whole life. Growing up, I wanted to be an artist. 
+                But as I’ve gotten busier I haven’t had as much time to draw, so 
+                I’m more of an art appreciator now. 
                 <br/><br/>
-                Growing up, I was always drawn to the arts, particularly 
-                drawing! It's something that has stuck with me over the years, 
-                even as life has gotten busier. When it came time to choose a 
-                career path in high school, I was torn between my love for the 
-                arts and my interest in tech. I eventually chose the latter.
+                I’ll be adding some of my artwork to this website though, if 
+                you’d like to see how my art looks :).
               </span>
             </div>
           </div>
@@ -40,17 +47,17 @@ export default function AboutPageComponent() {
               </span>
               <br/><br/>
               <span className={'body'}>
-                My time at the University of Toronto Scarborough will always 
-                hold a special place in my heart. I got to meet so many brilliant 
-                minds and learn from the best of the best. 
+                For me, as time goes on I look more fondly on my memories. That’s 
+                how I feel about my time at UTSC. I remember going into the first 
+                CSCA08 class, thinking, that I barely made it here — I don’t know 
+                if I’ll make it into the program!
                 <br/><br/>
-                It was there that I truly fell in love with learning, and I even 
-                pushed myself to take on the role of a teaching assistant. Now, 
-                for those who know me, you know I'm not the loudest person in the 
-                room. But taking on this challenge helped me grow in ways I never 
-                thought possible. 
+                One of my favourite things I did at UTSC was getting to teach as a 
+                TA, and getting to know what other people were up to — the internships 
+                people had, the courses they were taking. 
                 <br/><br/>
-                Thank you UTSC!
+                If I were to have a do-over, I would say yes to more things. Like 
+                going to hackathons, networking events, and what not. 
               </span>
             </div>
           </div>
@@ -61,15 +68,15 @@ export default function AboutPageComponent() {
               </span>
               <br/><br/>
               <span className={'body'}>
-                After graduating in the Spring of 2020, I was able to land an 
-                internship with Amazon for the summer. I was thrilled to be a 
-                part of the team that builds one of the largest warehouse 
-                management systems in the world! 
+                Career-wise, I’m a software engineer. It’s what I do for a living 
+                and my relationship with it is complex, but common — there’s a push 
+                and pull between wanting to love what I do and keeping at work at 
+                arm’s length. It’s something I’m working on! 
               <br/><br/>
-                I work at scale. Returning to Amazon full-time in early 2021, I 
-                was grateful to be working alongside such a talented team of 
-                developers and engineers. They have taught me so much and have 
-                helped me grow into a better software engineer.
+                The company that I work for is Amazon, and I’m part of a cool team 
+                that builds one of the largest warehouse management systems in the 
+                world. The problem we solve is mostly around moving inventory from 
+                Amazon’s warehouses to your home!
               </span>
             </div>
           </div>
@@ -81,17 +88,16 @@ export default function AboutPageComponent() {
               </span>
               <br/><br/>
               <span className={'body'}>
-                If you've made it this far, thank you for reading this! 
-                These days, I live in Toronto with my loving husband. We’re 
-                avid walkers. It’s a great way to stay active and explore 
-                the city. 
+                My personal life is a lot more quiet. I love going on walks 
+                (taking the long way), exploring new cities, thinking about 
+                clothes that I wanna make, furniture that I wanna buy. All that 
+                stuff. I’ve also been trying to make more content. 
                 <br/><br/>
-                Lately, I've been picking up some hobbies like sewing and 
-                drawing. I'm really into fashion and interior design, and 
-                if you're interested, you can check out my Instagram where 
-                I'm trying to post more often. I'm always up for a chat, so 
-                feel free to reach out to me on other places on the internet 
-                as well.
+                Lately I’ve been taking more photos and videos but putting them 
+                together is another story. Check out my instagram though! I 
+                will be posting more regularly :)
+                <br/><br/>
+                Find me on other places on the internet!
               </span>
             </div>
           </div>
