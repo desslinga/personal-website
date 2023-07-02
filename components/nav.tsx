@@ -15,6 +15,9 @@ export default function NavComponent() {
     }, {
         name: 'About',
         link: '/about'
+    }, {
+        name: 'Work',
+        link: '/work'
     }]
 
     const linkClickHandler = (navItem: any): void => {

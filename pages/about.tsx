@@ -16,7 +16,7 @@ export default function AboutPageComponent() {
               <span className={'body'}>
                 Hello! I’m Fides and this is my home on the internet. 
                 Thanks for dropping by! I’ve put together a little narrative 
-                about myself, if you’d like to read on below!
+                about myself, if you’d like to read on below.
               </span>
             </div>
           </div>
@@ -47,10 +47,10 @@ export default function AboutPageComponent() {
               </span>
               <br/><br/>
               <span className={'body'}>
-                For me, as time goes on I look more fondly on my memories. That’s 
+                For me, I look more fondly upon my memories as time goes on. That’s 
                 how I feel about my time at UTSC. I remember going into my first 
-                CSCA08 class, thinking, that I barely made it here — I don’t know 
-                if I’ll make it into the program!
+                CSCA08 class, thinking, I barely made it here — I don’t know 
+                how I’ll make it into the program!
                 <br/><br/>
                 One of my favourite things I did at UTSC was getting to teach as a 
                 TA, and getting to know what other people were up to — the internships 
@@ -91,9 +91,10 @@ export default function AboutPageComponent() {
                 My personal life is a lot more quiet. I love going on walks 
                 (taking the long way), exploring new cities, thinking about 
                 clothes that I wanna make, furniture that I wanna buy. All that 
-                stuff. I’ve also been trying to make more content. 
+                stuff. I also consume about 3 iced matcha lattes daily.
                 <br/><br/>
-                Lately I’ve been taking more photos and videos but putting them 
+                Lately, I’ve also been trying to make more content. 
+                I’ve been taking more photos and videos but putting them 
                 together is another story. Check out my instagram though! I 
                 will be posting more regularly :)
                 <br/><br/>

@@ -1,4 +1,5 @@
 $breakpoint-mobile: 700px;
+$beige-dark: #b09d74;
 
 html,
 body {
@@ -24,6 +25,10 @@ ul {
       }
     }
   }
+}
+
+a {
+  color: $beige-dark;
 }
 
 /* CSS */
