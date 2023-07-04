@@ -252,7 +252,7 @@ header {
 
 .textContainer {
   padding: 5vh 9px;
-  line-height: 2.5vh;
+  line-height: 1.3rem;
 
   .header {
     font-size: xx-large;
@@ -351,4 +351,91 @@ header {
   @media (max-width: $breakpoint-mobile) {
     order: 7;
   }
+}
+
+.galleryImage {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 48%;
+  height: 0;
+  padding-top: 50%;
+  margin: 1%;
+
+  @media (max-width: $breakpoint-mobile) {
+    width: 100%;
+    padding-top: 105%;
+  }
+}
+
+.uofthacksfive1 {
+  background-image: url('../assets/work-gallery/image-01.png');
+}
+
+.gotransit1 {
+  background-image: url('../assets/work-gallery/image-02.png');
+}
+
+.flora1 {
+  background-image: url('../assets/work-gallery/image-03.png');
+}
+
+.uofthacksfive2 {
+  background-image: url('../assets/work-gallery/image-04.png');
+}
+
+.flora2 {
+  background-image: url('../assets/work-gallery/image-05.png');
+}
+
+.gotransit2 {
+  background-image: url('../assets/work-gallery/image-06.png');
+}
+
+.gotransit3 {
+  background-image: url('../assets/work-gallery/image-07.png');
+}
+
+.gotransit4 {
+  background-image: url('../assets/work-gallery/image-08.png');
+}
+
+.woman1 {
+  background-image: url('../assets/work-gallery/image-09.png');
+}
+
+.amacss1 {
+  background-image: url('../assets/work-gallery/image-10.png');
+}
+
+.uofthacksfive3 {
+  background-image: url('../assets/work-gallery/image-11.png');
+}
+
+.gotransit5 {
+  background-image: url('../assets/work-gallery/image-12.png');
+}
+
+.amacss2 {
+  background-image: url('../assets/work-gallery/image-13.png');
+}
+
+.amacss3 {
+  background-image: url('../assets/work-gallery/image-14.png');
+}
+
+.woman2 {
+  background-image: url('../assets/work-gallery/image-15.png');
+}
+
+.flora3 {
+  background-image: url('../assets/work-gallery/image-16.png');
+}
+
+.amacss4 {
+  background-image: url('../assets/work-gallery/image-17.png');
+}
+
+.amacss5 {
+  background-image: url('../assets/work-gallery/image-18.png');
 }
