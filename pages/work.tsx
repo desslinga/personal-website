@@ -8,6 +8,8 @@ const nanum = Nanum_Myeongjo({
 })
 
 const galleryItems = [{
+    name: 'uofthackssix2'
+}, {
   name: 'uofthacksfive1'
 }, {
   name: 'gotransit1'
@@ -18,21 +20,31 @@ const galleryItems = [{
 }, {
   name: 'flora2'
 }, {
-  name: 'gotransit2'
+  name: 'amacss2'
+}, {
+  name: 'waffly2'    
+}, {
+  name: 'portrait1'
 }, {
   name: 'gotransit3'
+}, {
+  name: 'amacss1'
 }, {
   name: 'gotransit4'
 }, {
   name: 'woman1'
 }, {
-  name: 'amacss1'
+  name: 'uofthackssix1'
 }, {
   name: 'uofthacksfive3'
 }, {
   name: 'gotransit5'
+}, { 
+  name: 'flora4'
 }, {
-  name: 'amacss2'
+  name: 'woman4'
+}, {
+  name: 'gotransit2'
 }, {
   name: 'amacss3'
 }, {
@@ -43,6 +55,10 @@ const galleryItems = [{
   name: 'amacss4'
 }, {
   name: 'amacss5'
+}, {
+  name: 'woman3'
+}, {
+  name: 'waffly1'
 }]
 
 export default function WorkPageComponent() {
