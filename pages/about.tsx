@@ -30,11 +30,11 @@ export default function AboutPageComponent() {
                 A little background — I’m from the Philippines, and I came with 
                 my family to Toronto, Canada when I was 9. Since then I’ve stayed 
                 in Toronto my whole life. Growing up, I wanted to be an artist. 
-                But as I’ve gotten busier I haven’t had as much time to draw, so 
+                But as I’ve gotten busier, I haven’t had as much time to draw and 
                 I’m more of an art appreciator now. 
                 <br/><br/>
-                I’ll be adding some of my artwork to this website though, if 
-                you’d like to see how my art looks :).
+                That said, I do have some of my artwork on this website if you're
+                interested. Check it out <a href='/work'>here</a>.
               </span>
             </div>
           </div>
