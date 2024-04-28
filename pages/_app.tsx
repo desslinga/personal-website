@@ -3,7 +3,7 @@ import Head from 'next/head'
 import { Nanum_Myeongjo } from 'next/font/google'
 import { AppProps } from 'next/app'
 import { useMediaQuery } from 'react-responsive';
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react";
 import dynamic from 'next/dynamic'
 
 const nanum = Nanum_Myeongjo({
@@ -38,6 +38,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <NavComponent></NavComponent>
         <Component {...pageProps}></Component>
       </div>
+      <Analytics/>
     </>
   )
 }
